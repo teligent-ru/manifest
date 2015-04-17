@@ -5,7 +5,7 @@
 
   <default remote="couchbase" revision="master"/>
 
-  <project name="ep-engine" path="ep-engine" revision="e9bf06f35b252a6d768960a49f5e9f0ed92011d1" remote=teligent/>
+  <project name="ep-engine" path="ep-engine" revision="CB-1" remote="teligent"/>
   <project name="memcached" path="memcached" revision="9658c497d5163de7ed6752d80e46b05b682d1f9e"/>
   <project name="platform" path="platform" revision="2a6d25c5cd2b6b7ed0771e15fee941f527a284a9"/>
   <project name="tlm" path="tlm" revision="611bce7989cd15a15082418977916cc500f52413">
