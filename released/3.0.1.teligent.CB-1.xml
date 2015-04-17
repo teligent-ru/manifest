@@ -13,12 +13,6 @@
     <copyfile dest='Makefile' src='Makefile'/>
     <copyfile dest='CMakeLists.txt' src='CMakeLists.txt'/>
   </project>
-  <project name="icu4c" path="icu4c" revision="26359393672c378f41f2103a8699c4357c894be7"
-           remote="couchbase"/>
-  <project name="snappy" path="snappy" revision="009c4325f40e04700ca7956e866ad342f020e214"
-           remote="couchbase"/>
   <project name="v8" path="v8" revision="05120013843918f7e3712159c03b509d3e328cf7"
-           remote="couchbase"/>
-  <project name="icu46" path="v8/third_party/icu" revision="73170776491a3e38f68ab0367f3121256a3cc289"
            remote="couchbase"/>
 </manifest>
