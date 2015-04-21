@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="git://github.com/couchbase/"/>
+  <remote name="teligent" fetch="ssh://git@github.com/teligent-ru/"/>
+
+  <default remote="couchbase" revision="master"/>
+
+  <project name="ep-engine" path="ep-engine" revision="3.0.1.teligent" remote="teligent"/>
+  <project name="memcached" path="memcached" revision="9658c497d5163de7ed6752d80e46b05b682d1f9e"/>
+  <project name="platform" path="platform" revision="2a6d25c5cd2b6b7ed0771e15fee941f527a284a9"/>
+  <project name="tlm" path="tlm" revision="3.0.1.teligent">
+    <copyfile dest='GNUmakefile' src='GNUmakefile'/>
+    <copyfile dest='Makefile' src='Makefile'/>
+    <copyfile dest='CMakeLists.txt' src='CMakeLists.txt'/>
+  </project>
+  <project name="v8" path="v8" revision="05120013843918f7e3712159c03b509d3e328cf7"
+           remote="couchbase"/>
+</manifest>
