@@ -8,7 +8,7 @@
   <project name="ep-engine" path="ep-engine" revision="3.0.1.teligent" remote="teligent"/>
   <project name="memcached" path="memcached" revision="9658c497d5163de7ed6752d80e46b05b682d1f9e"/>
   <project name="platform" path="platform" revision="2a6d25c5cd2b6b7ed0771e15fee941f527a284a9"/>
-  <project name="tlm" path="tlm" revision="3.0.1.teligent">
+  <project name="tlm" path="tlm" revision="3.0.1.teligent" remote="teligent">
     <copyfile dest='GNUmakefile' src='GNUmakefile'/>
     <copyfile dest='Makefile' src='Makefile'/>
     <copyfile dest='CMakeLists.txt' src='CMakeLists.txt'/>
